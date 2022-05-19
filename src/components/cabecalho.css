@@ -1,0 +1,16 @@
+header {
+    height: 100px;
+    background-color: orangered;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > span {
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+}

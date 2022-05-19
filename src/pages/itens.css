@@ -1,0 +1,23 @@
+* {
+    background-color: orange;
+}
+
+li {
+    background-color: #d31b1b;
+    padding: 4px 16px;
+    border-style: none;
+    border-radius: 25px;
+    border: 0;
+    margin-bottom: 1em;
+    color: rgba(86, 27, 223, 0.808);
+    font-size: 1.2em;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+li:hover {
+    background: #f8013fb2;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 2);
+    text-shadow: none;
+}
