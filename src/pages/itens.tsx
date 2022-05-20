@@ -17,7 +17,6 @@ const ItensPage = function () {
         <>
         <Cabecalho />
             <main>
-                <button onClick={botaoCriarClicando}>Test</button>
                 <h1>Item page</h1>
                 <ul>
                     <li>Item 1</li>
@@ -25,7 +24,7 @@ const ItensPage = function () {
                     <li>Item 3</li>
                 </ul>
                 {(estado === 'INICIAL') && (
-                    <Botao texto="Criar" />
+                    <Botao texto="Criar" click={botaoCriarClicando}/>
                 )}
                 {(estado === 'CRIAR') && (
                     <form className="item">

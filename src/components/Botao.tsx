@@ -5,11 +5,12 @@ import './Botao.css'
 
 type Props = {
     texto: string
+    click?: () => void
 }
 
 const Botao: FunctionComponent<Props> = function(Props) {
     return (
-        <button>{Props.texto}</button>
+        <button onClick={Props.click}>{Props.texto}</button>
     );
 };
 
